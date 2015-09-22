@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta charset="utf-8">
+  <title>File Upload Demo</title>
+  <link type="text/css" rel="stylesheet" href="/assets/gia.ui.css" />
+</head>
+<body>
+<section class="header">
+  <div class="f">
+    <nav class="tb">
+      <h2 class="tc">Measure Extractor: Body Accuracy</h2>
+    </nav>
+  </div>
+</section>
+<div class="ctn ph-20">
+  <div class="rw">
+    <div class="cl sm-12 md-5">
+      {{ if .NotNil }}
+      <div class="rw">
+        <div class="cl">
+          <h3>Current result</h3>
+          <div class="stats">Number of examined articles: {{.Examined}}</div>
+          <div class="stats">Number of correct articles: {{.Correct}}</div>
+          <div class="stats">Number of incorrect articles: {{len .IncorrectRecords}}</div>
+          <div class="stats">Accuracy: {{printf "%.2f" .Accuracy}}</div>
+          <div class="stats">Average precision: {{printf "%.2f" .AveragePrecision}}</div>
+          <div class="stats">Average recall: {{printf "%.2f" .AverageRecall}}</div>
+          <div class="stats">Precision threshold: {{printf "%.2f" .PrecisionThreshold}}</div>
+          <div class="stats">Recall threshold: {{printf "%.2f" .RecallThreshold}}</div>
+          <div class="stats">
+            <a href="/measure/body/uploads/{{.Filename}}">Click Here for Uploaded Records</a>
+          </div>
+          <div class="stats">
+            <a href="/measure/body/incorrects/{{.Filename}}">Click Here for Incorrect Records</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="rw">
+        <div class="cl">
+          <h3>Submit Body File</h3>
+          <form class="form-signin" method="post" action="/measure/body" enctype="multipart/form-data">
+            <fieldset>
+              <div class="rw mb-10">
+                <div class="cl sm-6">
+                  <label for="myfiles">
+                    Upload body file
+                  </label>
+                </div>
+                <div class="cl sm-6">
+                  <input type="file" name="myfiles" id="myfiles">
+                </div>
+              </div>
+              <div class="rw mb-10">
+                <div class="cl sm-6">
+                  <label for="precision-threshold">
+                    Precision Threshold:
+                  </label>
+                </div>
+                <div class="cl sm-6">
+                  {{ if .NotNil }}
+                    <input type="text" name="precision-threshold" value="{{ .PrecisionThreshold }}">
+                  {{ else }}
+                    <input type="text" name="precision-threshold" value="0.9">
+                  {{ end }}
+                </div>
+              </div>
+              <div class="rw mb-10">
+                <div class="cl sm-6">
+                  <label for="precision-threshold">
+                    Recall Threshold:
+                  </label>
+                </div>
+                <div class="cl sm-6">
+                  {{ if .NotNil }}
+                  <input type="text" name="recall-threshold" value="{{ .RecallThreshold }}">
+                  {{ else }}
+                    <input type="text" name="recall-threshold" value="0.0">
+                  {{ end }}
+                </div>
+              </div>
+              <div class="rw mb-10">
+                <div class="cl tr"><input class="bt" type="submit" name="submit" value="Submit"></div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="cl sm-12 md-7">
+      <div class="rw">
+        <div class="cl">
+          <h3>Measure History</h3>
+          <table>
+            <tr>
+              <th class="tl"> ID </th>
+              <th class="tr"> Accuracy </th>
+              <th class="tr"> Precision </th>
+              <th class="tr"> Recall </th>
+              <th class="tr"> PreThres </th>
+              <th class="tr"> RecThres </th>
+            </tr>
+          {{ range $index, $history := .Histories }}
+          <tr>
+            <td><a href="/measure/body/results/{{ $history.ID }}">{{ $history.ID}}</a></td>
+            <td class="tr"> {{printf "%.2f" $history.Accuracy }} </td>
+            <td class="tr"> {{printf "%.2f" $history.AveragePrecision }} </td>
+            <td class="tr"> {{printf "%.2f" $history.AverageRecall }} </td>
+            <td class="tr"> {{printf "%.2f" $history.PrecisionThreshold }} </td>
+            <td class="tr"> {{printf "%.2f" $history.RecallThreshold }} </td>
+          </tr>
+          {{ end }}
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+</html>

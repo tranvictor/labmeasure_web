@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta charset="utf-8">
+  <title>File Upload Demo</title>
+  <link type="text/css" rel="stylesheet" href="/assets/gia.ui.css" />
+</head>
+<body>
+<div class="ctn ph-20">
+  <div class="rw">
+    <div class="cl">
+      <h1 class="tc">Measure Extractor: Body Accuracy</h1>
+    </div>
+  </div>
+  <div class="rw">
+    <div class="cl">
+      <h3>Result for {{.ID}}</h3>
+      <table>
+        <tr><th class="tr">Number of examined articles:</th>
+          <td class="tr">{{.Examined}}</td></tr>
+        <tr><th class="tr">Number of correct articles:</th>
+          <td class="tr">{{.Correct}}</td></tr>
+        <tr><th class="tr">Number of incorrect articles:</th>
+          <td class="tr">{{.Incorrect}}</td></tr>
+        <tr><th class="tr">Accuracy:</th>
+          <td class="tr">{{printf "%.2f" .Accuracy}}</td></tr>
+        <tr><th class="tr">Average precision:</th>
+          <td class="tr">{{printf "%.2f" .AveragePrecision}}</td></tr>
+        <tr><th class="tr">Average recall:</th>
+          <td class="tr">{{printf "%.2f" .AverageRecall}}</td></tr>
+        <tr><th class="tr">Precision threshold:</th>
+          <td class="tr">{{printf "%.2f" .PrecisionThreshold}}</td></tr>
+        <tr><th class="tr">Recall threshold:</th>
+          <td class="tr">{{printf "%.2f" .RecallThreshold}}</td></tr>
+      </table>
+      <div class="stats">
+        <a href="/measure/body/uploads/{{.ID}}">Click Here for Uploaded Records</a>
+      </div>
+      <div class="stats">
+        <a href="/measure/body/incorrects/{{.ID}}">Click Here for Incorrect Records</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
