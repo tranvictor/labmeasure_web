@@ -139,6 +139,7 @@ func handleUploadPOST(w http.ResponseWriter, r *http.Request) {
 			file,
 			preThreshold,
 			recThreshold,
+			labmeasure.LoadImageMetaCachesPointer(),
 		}
 		finalStat := labmeasure.Measure(conf)
 		history := History{}

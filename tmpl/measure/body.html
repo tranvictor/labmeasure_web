@@ -19,7 +19,7 @@
 <div class="ctn ph-20">
   <div class="rw">
     <h3>Submit Body File</h3>
-    <form class="form-signin" method="post" action="/measure/body" enctype="multipart/form-data">
+    <form class="form-signin" method="post" action="/measure" enctype="multipart/form-data">
       <fieldset>
         <div class="rw mb-10">
           <div class="cl sm-6">
@@ -264,7 +264,7 @@
       </tr>
       {{ range $index, $history := .Histories }}
       <tr>
-        <td style="border: 1px solid;" ><a href="/measure/body/results/{{ $history.ID }}">{{ $history.ID }}</a></td>
+        <td style="border: 1px solid;" ><a href="/measure/results/{{ $history.ID }}">{{ $history.ID }}</a></td>
         <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAccuracy }} </td>
         <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAveragePrecision }} </td>
         <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAverageRecall }} </td>
