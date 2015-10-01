@@ -1,0 +1,20 @@
+{
+  "BodyExamined": 2628,
+  "BodyCorrect": 2503,
+  "BodyIncorrect": 125,
+  "BodyAccuracy": 0.9524353,
+  "BodyAveragePrecision": 0.96306676,
+  "BodyAverageRecall": 0.94036055,
+  "BodyPrecisionThreshold": 0.9,
+  "BodyRecallThreshold": 0,
+  "TitleExamined": 3283,
+  "TitleCorrect": 3219,
+  "TitleIncorrect": 64,
+  "TitleAccuracy": 0.98050565,
+  "ImageExamined": 3283,
+  "ImageQualified": 3283,
+  "ImageCorrect": 2564,
+  "ImageIncorrect": 719,
+  "ImageAccuracy": 0.780993,
+  "ID": "1443663113873"
+}

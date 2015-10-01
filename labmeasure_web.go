@@ -37,10 +37,18 @@ func trapError(w http.ResponseWriter, err error) bool {
 
 func handleUploadGET(w http.ResponseWriter) {
 	histories, err := LoadHistories()
+	var lastHistory *History
+	if len(histories) > 0 {
+		lastHistory = histories[0]
+	}
 	if err != nil {
 		fmt.Printf("%s", err)
 	}
-	display(w, "body", StatPresenter{nil, "", histories})
+	if lastHistory == nil {
+		display(w, "body", StatPresenter{lastHistory, "", histories})
+	} else {
+		display(w, "body", StatPresenter{lastHistory, lastHistory.ID, histories})
+	}
 }
 
 func makeTimestamp() string {
@@ -132,27 +140,37 @@ func handleUploadPOST(w http.ResponseWriter, r *http.Request) {
 			preThreshold,
 			recThreshold,
 		}
-		stat := labmeasure.Measure(conf)
+		finalStat := labmeasure.Measure(conf)
 		history := History{}
-		history.RecordFromStat(stat)
+		history.RecordFromStat(finalStat)
 		history.ID = timestamp
 		history.WriteToJson(fmt.Sprintf("results/%s.json", timestamp))
-		b, _ := json.MarshalIndent(stat.IncorrectRecords, "", "  ")
-		err := ioutil.WriteFile(
-			fmt.Sprintf("incorrects/%s.json", timestamp), b, 0666)
-
-		if err != nil {
-			fmt.Printf("%q", err)
+		incorrectRecords := map[string]interface{}{}
+		for name, stat := range finalStat.Stats() {
+			incorrectRecords[name] = stat.GetIncorrectRecords()
+		}
+		for comparerName, records := range incorrectRecords {
+			b, _ := json.MarshalIndent(records, "", "  ")
+			err := ioutil.WriteFile(
+				fmt.Sprintf("incorrects/%s_%s.json", timestamp, comparerName), b, 0666)
+			if err != nil {
+				fmt.Printf("%q", err)
+			}
 		}
 
 		histories, err := LoadHistories()
+		var lastHistory *History
+
+		if len(histories) > 0 {
+			lastHistory = histories[0]
+		}
 		if err != nil {
 			fmt.Printf("%q", err)
 		}
 
 		display(
 			w, "body",
-			StatPresenter{&stat, timestamp, histories},
+			StatPresenter{lastHistory, timestamp, histories},
 		)
 	}
 }
@@ -209,10 +227,10 @@ func resultHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/measure/body", uploadHandler)
-	http.HandleFunc("/measure/body/incorrects/", downloadIncorrectHandler)
-	http.HandleFunc("/measure/body/uploads/", downloadUploadHandler)
-	http.HandleFunc("/measure/body/results/", resultHandler)
+	http.HandleFunc("/measure", uploadHandler)
+	http.HandleFunc("/measure/incorrects/", downloadIncorrectHandler)
+	http.HandleFunc("/measure/uploads/", downloadUploadHandler)
+	http.HandleFunc("/measure/results/", resultHandler)
 	// http.HandleFunc("/measure/body/results/", resultHandler)
 	fs := http.FileServer(http.Dir("assets"))
 	http.Handle("/assets/", http.StripPrefix("/assets/", fs))

@@ -12,114 +12,270 @@
 <section class="header">
   <div class="f">
     <nav class="tb">
-      <h2 class="tc">Measure Extractor: Body Accuracy</h2>
+      <h2 class="tc">Measure Lion Article Extractor Performance</h2>
     </nav>
   </div>
 </section>
 <div class="ctn ph-20">
   <div class="rw">
-    <div class="cl sm-12 md-5">
-      {{ if .NotNil }}
-      <div class="rw">
-        <div class="cl">
-          <h3>Current result</h3>
-          <div class="stats">Number of examined articles: {{.Examined}}</div>
-          <div class="stats">Number of correct articles: {{.Correct}}</div>
-          <div class="stats">Number of incorrect articles: {{len .IncorrectRecords}}</div>
-          <div class="stats">Accuracy: {{printf "%.2f" .Accuracy}}</div>
-          <div class="stats">Average precision: {{printf "%.2f" .AveragePrecision}}</div>
-          <div class="stats">Average recall: {{printf "%.2f" .AverageRecall}}</div>
-          <div class="stats">Precision threshold: {{printf "%.2f" .PrecisionThreshold}}</div>
-          <div class="stats">Recall threshold: {{printf "%.2f" .RecallThreshold}}</div>
-          <div class="stats">
-            <a href="/measure/body/uploads/{{.Filename}}">Click Here for Uploaded Records</a>
+    <h3>Submit Body File</h3>
+    <form class="form-signin" method="post" action="/measure/body" enctype="multipart/form-data">
+      <fieldset>
+        <div class="rw mb-10">
+          <div class="cl sm-6">
+            <label for="myfiles">
+              Upload body file
+            </label>
           </div>
-          <div class="stats">
-            <a href="/measure/body/incorrects/{{.Filename}}">Click Here for Incorrect Records</a>
+          <div class="cl sm-6">
+            <input type="file" name="myfiles" id="myfiles">
+          </div>
+        </div>
+        <div class="rw mb-10">
+          <div class="cl sm-6">
+            <label for="precision-threshold">
+              Precision Threshold:
+            </label>
+          </div>
+          <div class="cl sm-6">
+            {{ if .NotNil }}
+              <input type="text" name="precision-threshold" value="{{ .LastHistory.BodyPrecisionThreshold }}">
+            {{ else }}
+              <input type="text" name="precision-threshold" value="0.9">
+            {{ end }}
+          </div>
+        </div>
+        <div class="rw mb-10">
+          <div class="cl sm-6">
+            <label for="precision-threshold">
+              Recall Threshold:
+            </label>
+          </div>
+          <div class="cl sm-6">
+            {{ if .NotNil }}
+            <input type="text" name="recall-threshold" value="{{ .LastHistory.BodyRecallThreshold }}">
+            {{ else }}
+              <input type="text" name="recall-threshold" value="0.0">
+            {{ end }}
+          </div>
+        </div>
+        <div class="rw mb-10">
+          <div class="cl tr"><input class="bt" type="submit" name="submit" value="Submit"></div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <div class="rw">
+    {{ if .NotNil }}
+      <h3>Last Run Result (For <a href="/measure/body/uploads/{{.Filename}}">This Uploaded Records</a>)</h3>
+      <div class="rw">
+        <div class="cl sm-4">
+          <div class="rw">
+            <div class="cl tc">
+              <h4>Body Stats</h4>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of examined articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.BodyExamined}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of correct articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.BodyCorrect}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of incorrect articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.BodyIncorrect}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Accuracy: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.BodyAccuracy}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Average precision: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.BodyAveragePrecision}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Average recall: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.BodyAverageRecall}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Precision threshold: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.BodyPrecisionThreshold}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Recall threshold: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.BodyRecallThreshold}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl tc">
+              <a href="/measure/body/incorrects/{{.Filename}}_BodyComparer">Body - Incorrect Records</a>
+            </div>
+          </div>
+        </div>
+        <div class="cl sm-4">
+          <div class="rw">
+            <div class="cl tc">
+              <h4>Title Stats</h4>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of examined articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.TitleExamined}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of correct articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.TitleCorrect}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of incorrect articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.TitleIncorrect}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Accuracy: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.TitleAccuracy}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl tc">
+              <a href="/measure/body/incorrects/{{.Filename}}_TitleComparer">Title - Incorrect Records</a>
+            </div>
+          </div>
+        </div>
+        <div class="cl sm-4">
+          <div class="rw">
+            <div class="cl tc">
+              <h4>Image Stats</h4>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of examined articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.ImageExamined}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of qualified articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.ImageQualified}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of correct articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.ImageCorrect}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Number of incorrect articles: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{.LastHistory.ImageIncorrect}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl sm-9 tr">
+              <div class="stats">Accuracy: </div>
+            </div>
+            <div class="cl sm-3 tl">
+              <div class="stats">{{printf "%.2f" .LastHistory.ImageAccuracy}}</div>
+            </div>
+          </div>
+          <div class="rw">
+            <div class="cl tc">
+              <a href="/measure/body/incorrects/{{.Filename}}_ImageComparer">Image - Incorrect Records</a>
+            </div>
           </div>
         </div>
       </div>
+    {{ end }}
+  </div>
+  <div class="rw">
+    <h3>Measure History</h3>
+    <table style="border-collapse: collapse; border: 1px solid;">
+      <tr>
+        <th style="border: 1px solid;" class="tl" rowspan="2"> ID </th>
+        <th style="border: 1px solid;" class="tc" colspan="5"> Body Stats </th>
+        <th style="border: 1px solid;" class="tc" colspan="1"> Title Stats </th>
+        <th style="border: 1px solid;" class="tc" colspan="1"> Image Stats </th>
+      </tr>
+      <tr>
+        <th style="border: 1px solid;" class="tr"> Accuracy </th>
+        <th style="border: 1px solid;" class="tr"> Precision </th>
+        <th style="border: 1px solid;" class="tr"> Recall </th>
+        <th style="border: 1px solid;" class="tr"> PreThres </th>
+        <th style="border: 1px solid;" class="tr"> RecThres </th>
+        <th style="border: 1px solid;" class="tr"> Accuracy </th>
+        <th style="border: 1px solid;" class="tr"> Accuracy </th>
+      </tr>
+      {{ range $index, $history := .Histories }}
+      <tr>
+        <td style="border: 1px solid;" ><a href="/measure/body/results/{{ $history.ID }}">{{ $history.ID }}</a></td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAccuracy }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAveragePrecision }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAverageRecall }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyPrecisionThreshold }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyRecallThreshold }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.TitleAccuracy }}</td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.ImageAccuracy }}</td>
+      </tr>
       {{ end }}
-      <div class="rw">
-        <div class="cl">
-          <h3>Submit Body File</h3>
-          <form class="form-signin" method="post" action="/measure/body" enctype="multipart/form-data">
-            <fieldset>
-              <div class="rw mb-10">
-                <div class="cl sm-6">
-                  <label for="myfiles">
-                    Upload body file
-                  </label>
-                </div>
-                <div class="cl sm-6">
-                  <input type="file" name="myfiles" id="myfiles">
-                </div>
-              </div>
-              <div class="rw mb-10">
-                <div class="cl sm-6">
-                  <label for="precision-threshold">
-                    Precision Threshold:
-                  </label>
-                </div>
-                <div class="cl sm-6">
-                  {{ if .NotNil }}
-                    <input type="text" name="precision-threshold" value="{{ .PrecisionThreshold }}">
-                  {{ else }}
-                    <input type="text" name="precision-threshold" value="0.9">
-                  {{ end }}
-                </div>
-              </div>
-              <div class="rw mb-10">
-                <div class="cl sm-6">
-                  <label for="precision-threshold">
-                    Recall Threshold:
-                  </label>
-                </div>
-                <div class="cl sm-6">
-                  {{ if .NotNil }}
-                  <input type="text" name="recall-threshold" value="{{ .RecallThreshold }}">
-                  {{ else }}
-                    <input type="text" name="recall-threshold" value="0.0">
-                  {{ end }}
-                </div>
-              </div>
-              <div class="rw mb-10">
-                <div class="cl tr"><input class="bt" type="submit" name="submit" value="Submit"></div>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="cl sm-12 md-7">
-      <div class="rw">
-        <div class="cl">
-          <h3>Measure History</h3>
-          <table>
-            <tr>
-              <th class="tl"> ID </th>
-              <th class="tr"> Accuracy </th>
-              <th class="tr"> Precision </th>
-              <th class="tr"> Recall </th>
-              <th class="tr"> PreThres </th>
-              <th class="tr"> RecThres </th>
-            </tr>
-          {{ range $index, $history := .Histories }}
-          <tr>
-            <td><a href="/measure/body/results/{{ $history.ID }}">{{ $history.ID}}</a></td>
-            <td class="tr"> {{printf "%.2f" $history.Accuracy }} </td>
-            <td class="tr"> {{printf "%.2f" $history.AveragePrecision }} </td>
-            <td class="tr"> {{printf "%.2f" $history.AverageRecall }} </td>
-            <td class="tr"> {{printf "%.2f" $history.PrecisionThreshold }} </td>
-            <td class="tr"> {{printf "%.2f" $history.RecallThreshold }} </td>
-          </tr>
-          {{ end }}
-          </table>
-        </div>
-      </div>
-    </div>
+    </table>
   </div>
-
-  </div>
+</div>
 </body>
 </html>

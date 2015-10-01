@@ -9,38 +9,185 @@
   <link type="text/css" rel="stylesheet" href="/assets/gia.ui.css" />
 </head>
 <body>
+<section class="header">
+  <div class="f">
+    <nav class="tb">
+      <h2 class="tc">Measure Lion Article Extractor Performance</h2>
+    </nav>
+  </div>
+</section>
 <div class="ctn ph-20">
   <div class="rw">
-    <div class="cl">
-      <h1 class="tc">Measure Extractor: Body Accuracy</h1>
-    </div>
-  </div>
-  <div class="rw">
-    <div class="cl">
-      <h3>Result for {{.ID}}</h3>
-      <table>
-        <tr><th class="tr">Number of examined articles:</th>
-          <td class="tr">{{.Examined}}</td></tr>
-        <tr><th class="tr">Number of correct articles:</th>
-          <td class="tr">{{.Correct}}</td></tr>
-        <tr><th class="tr">Number of incorrect articles:</th>
-          <td class="tr">{{.Incorrect}}</td></tr>
-        <tr><th class="tr">Accuracy:</th>
-          <td class="tr">{{printf "%.2f" .Accuracy}}</td></tr>
-        <tr><th class="tr">Average precision:</th>
-          <td class="tr">{{printf "%.2f" .AveragePrecision}}</td></tr>
-        <tr><th class="tr">Average recall:</th>
-          <td class="tr">{{printf "%.2f" .AverageRecall}}</td></tr>
-        <tr><th class="tr">Precision threshold:</th>
-          <td class="tr">{{printf "%.2f" .PrecisionThreshold}}</td></tr>
-        <tr><th class="tr">Recall threshold:</th>
-          <td class="tr">{{printf "%.2f" .RecallThreshold}}</td></tr>
-      </table>
-      <div class="stats">
-        <a href="/measure/body/uploads/{{.ID}}">Click Here for Uploaded Records</a>
+    <div class="cl sm-4">
+      <div class="rw">
+        <div class="cl tc">
+          <h4>Body Stats</h4>
+        </div>
       </div>
-      <div class="stats">
-        <a href="/measure/body/incorrects/{{.ID}}">Click Here for Incorrect Records</a>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of examined articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.BodyExamined}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of correct articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.BodyCorrect}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of incorrect articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.BodyIncorrect}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Accuracy: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .BodyAccuracy}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Average precision: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .BodyAveragePrecision}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Average recall: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .BodyAverageRecall}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Precision threshold: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .BodyPrecisionThreshold}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Recall threshold: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .BodyRecallThreshold}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl tc">
+          <a href="/measure/body/incorrects/{{.ID}}_BodyComparer">Body - Incorrect Records</a>
+        </div>
+      </div>
+    </div>
+    <div class="cl sm-4">
+      <div class="rw">
+        <div class="cl tc">
+          <h4>Title Stats</h4>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of examined articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.TitleExamined}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of correct articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.TitleCorrect}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of incorrect articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.TitleIncorrect}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Accuracy: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .TitleAccuracy}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl tc">
+          <a href="/measure/body/incorrects/{{.ID}}_TitleComparer">Title - Incorrect Records</a>
+        </div>
+      </div>
+    </div>
+    <div class="cl sm-4">
+      <div class="rw">
+        <div class="cl tc">
+          <h4>Image Stats</h4>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of examined articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.ImageExamined}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of qualified articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.ImageQualified}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of correct articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.ImageCorrect}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Number of incorrect articles: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{.ImageIncorrect}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl sm-9 tr">
+          <div class="stats">Accuracy: </div>
+        </div>
+        <div class="cl sm-3 tl">
+          <div class="stats">{{printf "%.2f" .ImageAccuracy}}</div>
+        </div>
+      </div>
+      <div class="rw">
+        <div class="cl tc">
+          <a href="/measure/body/incorrects/{{.ID}}_ImageComparer">Image - Incorrect Records</a>
+        </div>
       </div>
     </div>
   </div>

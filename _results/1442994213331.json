@@ -1,0 +1,11 @@
+{
+  "Examined": 2725,
+  "Correct": 2526,
+  "Incorrect": 199,
+  "Accuracy": 0.92697245,
+  "AveragePrecision": 0.96009964,
+  "AverageRecall": 0.93237025,
+  "PrecisionThreshold": 0.9,
+  "RecallThreshold": 0.7,
+  "ID": "1442994213331"
+}
