@@ -7,6 +7,12 @@
   <meta charset="utf-8">
   <title>File Upload Demo</title>
   <link type="text/css" rel="stylesheet" href="/assets/gia.ui.css" />
+  <style type="text/css">
+    table, td {
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+  </style>
 </head>
 <body>
 <section class="header">
@@ -67,7 +73,7 @@
   </div>
   <div class="rw">
     {{ if .NotNil }}
-      <h3>Last Run Result (For <a href="/measure/body/uploads/{{.Filename}}">This Uploaded Records</a>)</h3>
+      <h3>Last Run Result (For <a href="/measure/uploads/{{.Filename}}">This Uploaded Records</a>)</h3>
       <div class="rw">
         <div class="cl sm-4">
           <div class="rw">
@@ -76,27 +82,53 @@
             </div>
           </div>
           <div class="rw">
-            <div class="cl sm-9 tr">
-              <div class="stats">Number of examined articles: </div>
-            </div>
-            <div class="cl sm-3 tl">
-              <div class="stats">{{.LastHistory.BodyExamined}}</div>
-            </div>
-          </div>
-          <div class="rw">
-            <div class="cl sm-9 tr">
-              <div class="stats">Number of correct articles: </div>
-            </div>
-            <div class="cl sm-3 tl">
-              <div class="stats">{{.LastHistory.BodyCorrect}}</div>
-            </div>
-          </div>
-          <div class="rw">
-            <div class="cl sm-9 tr">
-              <div class="stats">Number of incorrect articles: </div>
-            </div>
-            <div class="cl sm-3 tl">
-              <div class="stats">{{.LastHistory.BodyIncorrect}}</div>
+            <div class="cl">
+              <table>
+                <tr>
+                  <td colspan="5">
+                    <b>Examined:</b>&nbsp;
+                    {{ .LastHistory.BodyExamined }}
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">
+                    <b>Both Empty:</b>&nbsp;
+                    {{ .LastHistory.BodyBothEmpty }}
+                  </td>
+                  <td colspan="2">
+                    <b>Qualified:</b>&nbsp;
+                    {{ .LastHistory.BodyQualified }}
+                  </td>
+                  <td rowspan="2">
+                    <b>Diffbot Empty:</b>&nbsp;
+                    {{ .LastHistory.BodyDiffbotEmpty }}
+                  </td>
+                  <td rowspan="2">
+                    <b>Lab Empty:</b>&nbsp;
+                    {{ .LastHistory.BodyLabEmpty }}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Acceptable:</b>&nbsp;
+                    {{ .LastHistory.BodyAcceptable }}
+                  </td>
+                  <td>
+                    <b>Unacceptable:</b>&nbsp;
+                    {{ .LastHistory.BodyUnacceptable }}
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <b>Correct:</b>&nbsp;
+                    {{ .LastHistory.BodyCorrect }}
+                  </td>
+                  <td colspan="3">
+                    <b>Incorrect:</b>&nbsp;
+                    {{ .LastHistory.BodyIncorrect }}
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
           <div class="rw">
@@ -104,7 +136,7 @@
               <div class="stats">Accuracy: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.BodyAccuracy}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.BodyAccuracy}}</div>
             </div>
           </div>
           <div class="rw">
@@ -112,7 +144,7 @@
               <div class="stats">Average precision: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.BodyAveragePrecision}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.BodyAveragePrecision}}</div>
             </div>
           </div>
           <div class="rw">
@@ -120,7 +152,7 @@
               <div class="stats">Average recall: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.BodyAverageRecall}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.BodyAverageRecall}}</div>
             </div>
           </div>
           <div class="rw">
@@ -128,7 +160,7 @@
               <div class="stats">Precision threshold: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.BodyPrecisionThreshold}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.BodyPrecisionThreshold}}</div>
             </div>
           </div>
           <div class="rw">
@@ -136,12 +168,12 @@
               <div class="stats">Recall threshold: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.BodyRecallThreshold}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.BodyRecallThreshold}}</div>
             </div>
           </div>
           <div class="rw">
             <div class="cl tc">
-              <a href="/measure/body/incorrects/{{.Filename}}_BodyComparer">Body - Incorrect Records</a>
+              <a href="/measure/incorrects/{{.Filename}}_BodyComparer">Body - Incorrect Records</a>
             </div>
           </div>
         </div>
@@ -180,12 +212,12 @@
               <div class="stats">Accuracy: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.TitleAccuracy}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.TitleAccuracy}}</div>
             </div>
           </div>
           <div class="rw">
             <div class="cl tc">
-              <a href="/measure/body/incorrects/{{.Filename}}_TitleComparer">Title - Incorrect Records</a>
+              <a href="/measure/incorrects/{{.Filename}}_TitleComparer">Title - Incorrect Records</a>
             </div>
           </div>
         </div>
@@ -232,12 +264,12 @@
               <div class="stats">Accuracy: </div>
             </div>
             <div class="cl sm-3 tl">
-              <div class="stats">{{printf "%.2f" .LastHistory.ImageAccuracy}}</div>
+              <div class="stats">{{printf "%.4f" .LastHistory.ImageAccuracy}}</div>
             </div>
           </div>
           <div class="rw">
             <div class="cl tc">
-              <a href="/measure/body/incorrects/{{.Filename}}_ImageComparer">Image - Incorrect Records</a>
+              <a href="/measure/incorrects/{{.Filename}}_ImageComparer">Image - Incorrect Records</a>
             </div>
           </div>
         </div>
@@ -265,13 +297,13 @@
       {{ range $index, $history := .Histories }}
       <tr>
         <td style="border: 1px solid;" ><a href="/measure/results/{{ $history.ID }}">{{ $history.ID }}</a></td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAccuracy }} </td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAveragePrecision }} </td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyAverageRecall }} </td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyPrecisionThreshold }} </td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.BodyRecallThreshold }} </td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.TitleAccuracy }}</td>
-        <td style="border: 1px solid;" class="tr"> {{printf "%.2f" $history.ImageAccuracy }}</td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.BodyAccuracy }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.BodyAveragePrecision }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.BodyAverageRecall }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.BodyPrecisionThreshold }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.BodyRecallThreshold }} </td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.TitleAccuracy }}</td>
+        <td style="border: 1px solid;" class="tr"> {{printf "%.4f" $history.ImageAccuracy }}</td>
       </tr>
       {{ end }}
     </table>

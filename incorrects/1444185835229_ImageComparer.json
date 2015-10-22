@@ -1,0 +1,1100 @@
+[
+  {
+    "URL": "http://www.muscleandfitness.com/workouts/athletecelebrity-workouts/how-ufc-star-conor-mcgregor-trained-ufc-189",
+    "DiffbotImages": [
+      "http://www.muscleandfitness.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/conor-action-1.jpg?itok=Vn-9QHNN"
+    ],
+    "LabImages": [
+      "http://www.muscleandfitness.com/sites/muscleandfitness.com/files/media/conor-action-2.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.hometownlife.com/story/news/local/westland/2015/07/09/westland-residents-plan-lanes-bike-path-central-city-parkway/29855345/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/7b6067de9d486483c961b896c957360499ba9acf/c=0-0-3264-2448\u0026r=x404\u0026c=534x401/local/-/media/2015/07/08/Livonia/B9317917857Z.1_20150708092353_000_GVFB9EKJU.1-0.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/c5366816a2be01ce320de9a1b7d4fcd3d9671846/c=0-306-3264-2142\u0026r=x1683\u0026c=3200x1680/local/-/media/2015/07/08/Livonia/B9317917857Z.1_20150708092353_000_GVFB9EKJU.1-0.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.orlandoweekly.com/orlando/BestOf",
+    "DiffbotImages": [
+      "http://media1.fdncms.com/orlando/imager/best-of-orlando-2014/u/big/2293148/bestof2014.jpg"
+    ],
+    "LabImages": [
+      "http://media2.fdncms.com/orlando/imager/u/slideshow/2417103/1000w_boo2015_cover_final.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.newyorker.com/cartoons/daily-cartoon/daily-cartoon-friday-july-10th-catnaps-chevy?intcid=mod-latest",
+    "DiffbotImages": [
+      "http://www.newyorker.com/wp-content/uploads/2015/07/daily-cartoon_150710_chevy-1000.jpg"
+    ],
+    "LabImages": [
+      "http://www.newyorker.com/wp-content/uploads/2015/07/daily-cartoon_150710_chevy-1200-630-10125447.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.charlestoncitypaper.com/charleston/ai-space-exploration-and-philosophy-collide-in-new-locally-made-comic/Content?oid=5297373",
+    "DiffbotImages": [
+      "http://media1.fdncms.com/charleston/imager/u/blog/5297372/page.jpg?cb=1436384398",
+      "http://media1.fdncms.com/charleston/imager/u/magnum/5297362/guys.jpg"
+    ],
+    "LabImages": [
+      "http://media1.fdncms.com/charleston/imager/u/slideshow/5297371/teae.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.hometownlife.com/story/news/local/plymouth/2015/07/08/plymouth-found-property-sale/29815403/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/e1c9a0f8e47972d9989956c5b6bb50d9b66d9592/c=0-0-1452-1089\u0026r=x404\u0026c=534x401/local/-/media/2015/07/07/Livonia/B9317996360Z.1_20150707120435_000_GRUB9KNBF.1-0.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/4197c9d4d0e0a5f6bc35b6669be5f2e3fada286d/c=0-136-1452-953\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/24/Livonia/B9317996360Z.1_20150724165125_000_GRUB9KNBF.1-0.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.nuvo.net/indianapolis/slideshow-naptown-roller-girls-v-toronto-roller-derby/Content?oid=3274387",
+    "DiffbotImages": [
+      "http://media2.fdncms.com/nuvo/imager/u/inlineslideshow/3274329/20150620-7504-nrg-sk.jpg"
+    ],
+    "LabImages": [
+      "http://media2.fdncms.com/nuvo/imager/u/slideshow/3274386/20150620-7673-nrg-sk.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.gainesvilletimes.com/section/6/article/107348/",
+    "DiffbotImages": [
+      "http://media.morristechnology.com/webmedia/upload/gainesville/article/2014/10/14/1014dfcs4.jpg",
+      "http://media.morristechnology.com/webmedia/upload/gainesville/article/2014/10/14/1014dfcs9.jpg"
+    ],
+    "LabImages": [
+      "http://media.morristechnology.com/webmedia/upload/gainesville/article/2014/10/14/1014dfcs3.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.littlethings.com/how-to-cook-with-smoke/",
+    "DiffbotImages": [
+      "http://cdn9.littlethings.com/app/uploads/2015/07/218.jpg",
+      "http://cdn7.littlethings.com/app/uploads/2015/07/314-600x290.jpg",
+      "http://cdn6.littlethings.com/app/uploads/2015/07/412.jpg",
+      "http://cdn9.littlethings.com/app/uploads/2015/07/511-600x316.jpg"
+    ],
+    "LabImages": [
+      "http://cdn9.littlethings.com/app/uploads/2015/07/Thumb16.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 4,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://thenextweb.com/entrepreneur/2015/07/10/4-tips-to-make-any-team-agile/",
+    "DiffbotImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/startup1-520x347.jpg",
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/startups-520x253.jpg",
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/05/startupbuzz-520x274.jpg",
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/startups1-520x366.jpg"
+    ],
+    "LabImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/shutterstock_260061800.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 4,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.cbc.ca/news/canada/british-columbia/air-canada-named-in-overpricing-conspiracy-lawsuit-1.3147494",
+    "DiffbotImages": [
+      "http://i.cbc.ca/1.3147637.1436574340!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/air-canada.jpg"
+    ],
+    "LabImages": [
+      "http://i.cbc.ca/1.3147858.1436609892!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_460/canada.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.glendalenewspress.com/entertainment/tn-gnp-beatles-tribute-bands-to-perform-local-shows-20150707,0,2883070.story",
+    "DiffbotImages": [
+      "http://www.trbimg.com/img-559c884e/turbine/tn-gnp-beatles-tribute-bands-to-perform-local--004/525/425x525"
+    ],
+    "LabImages": [
+      "http://www.trbimg.com/img-559c884d/turbine/tn-gnp-beatles-tribute-bands-to-perform-local-shows-20150707"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.eonline.com/news/674347/guess-the-dress-what-caitlyn-jenner-should-wear-to-the-2015-espy-awards",
+    "DiffbotImages": [
+      "http://www.eonline.com/eol_images/Entire_Site/201569/rs_700x1024-150709102226-634-11caitlyn-jenner-espys.ls.7815.jpg",
+      "http://www.eonline.com/eol_images/Entire_Site/201569/rs_700x1024-150709102621-634-13caitlyn-jenner-espys.ls.7815.jpg"
+    ],
+    "LabImages": [
+      "http://www.eonline.com/resize/500/500//eol_images/Entire_Site/201569/rs_300x300-150709153213-600caitlyn-jenner-zuhair-murad-espys.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.peoplestylewatch.com/people/stylewatch/gallery/0,,20934405,00.html",
+    "DiffbotImages": [
+      "http://img2.timeinc.net/people/i/2015/stylewatch/hot-mess/150727/victoria-justice.jpg",
+      "http://img2.timeinc.net/people/i/2015/stylewatch/gallery/braids/gigi-hadid.jpg",
+      "http://img2.timeinc.net/people/i/2015/stylewatch/gallery/braids/miley-cyrus.jpg",
+      "http://img2.timeinc.net/people/i/2015/stylewatch/gallery/braids/lea-michele.jpg"
+    ],
+    "LabImages": [
+      "http://cdn-img.people.com/emstag/i/2015/stylewatch/gallery/braids/emma-roberts1.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 4,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.littlethings.com/jimmy-fallon-channing-tatum-magic-mike/",
+    "DiffbotImages": [
+      "http://cdn4.littlethings.com/app/uploads/2014/06/maxresdefault1-600x313.jpg",
+      "http://cdn9.littlethings.com/app/uploads/2015/07/Dog-refuses-mom-kisses-600x313.jpg"
+    ],
+    "LabImages": [
+      "http://cdn9.littlethings.com/app/uploads/2015/07/kid-theater.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.indystar.com/story/life/2015/07/09/black-lives-matter-screen-indiana-black-expo-film-festival/29937085/?from=global\u0026sessionKey=\u0026autologin=",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/92b5bc656f030899f9715fb26fe51570df1fcaeb/c=202-0-2330-1600\u0026r=x404\u0026c=534x401/local/-/media/2015/07/09/Indianapolis/B9318015149Z.1_20150709184453_001_GT9BAAP6L.1-0.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/c1e09243abc0a3cb8768bceaf36220305f1b1408/c=0-82-2397-1436\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/09/Indianapolis/B9318015149Z.1_20150709184453_001_GT9BAAP6L.1-0.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.theoaklandpress.com/general-news/20150706/divers-rule-out-drowning-in-case-of-missing-pontiac-boy-with-autism?source=most_viewed",
+    "DiffbotImages": [
+      "http://www.theoaklandpress.com/apps/pbcsi.dll/storyimage/OP/20150706/NEWS/150709752/EP/1/1/EP-150709752.jpg\u0026maxh=400\u0026maxw=667"
+    ],
+    "LabImages": [
+      "http://www.theoaklandpress.com/apps/pbcsi.dll/storyimage/OP/20150706/NEWS/150709752/AR/0/AR-150709752.jpg?Maxh=1500\u0026Maxw=1500"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.chicoer.com/general-news/20150710/confederate-flag-comes-down-in-south-carolina",
+    "DiffbotImages": [
+      "http://www.chicoer.com/apps/pbcsi.dll/storyimage/NA/20150710/NEWS/150719990/EP/1/1/EP-150719990.jpg\u0026maxh=400\u0026maxw=667"
+    ],
+    "LabImages": [
+      "http://www.chicoer.com/apps/pbcsi.dll/storyimage/NA/20150710/NEWS/150719990/AR/0/AR-150719990.jpg?Maxh=1500\u0026Maxw=1500"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.hometownlife.com/story/life/books/2015/07/10/go-set-a-watchman-harper-lee-book-review/29980231/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/29e98da846d00df79059b1c21983f4a0a413e997/c=0-139-1586-2254\u0026r=537\u0026c=0-0-534-712/local/-/media/2015/07/10/USATODAY/USATODAY/635721473694919487-Harper-Lee.credit-to-Michael-Brownjpg.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/f718b8428c0d001be50adc267cee8e516f1be71a/c=0-157-1579-1049\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/10/USATODAY/USATODAY/635721473694919487-Harper-Lee.credit-to-Michael-Brownjpg.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.theepochtimes.com/n3/1422115-20-years-after-srebrenica-ethnic-cleansing-has-become-a-defence-to-genocide/",
+    "DiffbotImages": [
+      "http://img.theepochtimes.com/n3/eet-content/uploads/2015/07/09/14155532662_025a88a8d3_o-480x269.jpg",
+      "http://img.theepochtimes.com/n3/eet-content/uploads/2015/07/09/Getty-103301053-480x319.jpg"
+    ],
+    "LabImages": [
+      "http://www.theepochtimes.com/n3/eet-content/uploads/2015/07/09/GettyImages-172817784-674x447.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.heraldonline.com/news/business/article26980528.html",
+    "DiffbotImages": [
+      "http://www.heraldonline.com/news/local/gx6c4w-Nurse-Betty-celebrates-60-years-at-PMC/ALTERNATES/LANDSCAPE_560/Nurse%20Betty%20celebrates%2060%20years%20at%20PMC"
+    ],
+    "LabImages": [
+      "http://www.heraldonline.com/news/business/qh2x2r/picture26982148/ALTERNATES/LANDSCAPE_1140/0711nursebetty3"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.theguardian.com/sport/2015/jul/10/mark-cavendish-tour-de-france-stage-seven-win-cycling",
+    "DiffbotImages": [
+      "http://i.guim.co.uk/img/static/sys-images/Guardian/Pix/audio/video/2015/7/10/1436552305475/KP_349955_crop_640x360.jpg?w=640\u0026q=85\u0026auto=format\u0026sharp=10\u0026s=414ad095d9a38c93c499da79b36e007c"
+    ],
+    "LabImages": [
+      "https://i.guim.co.uk/img/media/f5a5c5431fc0af7cd58bc724707e4b88d74dcf04/0_34_3309_1985/master/3309.jpg?w=1200\u0026q=85\u0026auto=format\u0026sharp=10\u0026s=36feec3792ff1c18d942a4c1d5b2cfd4"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.thepennyhoarder.com/29-ways-to-make-money/",
+    "DiffbotImages": [
+      "http://cdn6.thepennyhoarder.com/wp-content/uploads/2015/01/earn-money-e1420429752754.jpg"
+    ],
+    "LabImages": [
+      "http://cdn.thepennyhoarder.com/wp-content/uploads/2015/01/05180048/Grandma-with-money.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.hometownlife.com/story/news/local/westland/2015/07/09/testimony-woman-took-multiple-drugs-fatal-westland-crash/29936593/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/8334042135d7f679c06190b7cdf533ced74a407e/c=15-0-465-600\u0026r=537\u0026c=0-0-534-712/local/-/media/2015/07/10/Livonia/B9318028251Z.1_20150710145935_000_G1FBABG2R.1-0.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/09680c7068e19f56bf753622e638973626f95763/c=0-165-480-435\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/10/Livonia/B9318028251Z.1_20150710145935_000_G1FBABG2R.1-0.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.stylebistro.com/50+Stylish+Outfits+for+Spring",
+    "DiffbotImages": [
+      "http://www3.pictures.stylebistro.com/mp/wDcRUh0zVPRl.jpg"
+    ],
+    "LabImages": [
+      "http://www2.pictures.stylebistro.com/mp/hM5Kv6NBzLwm.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://twentytwowords.com/giant-anteaters-front-legs-look-like-pandas-5-pictures/",
+    "DiffbotImages": [
+      "http://cdn.twentytwowords.com/wp-content/uploads/Giant-Anteaters-legs-look-like-pandas-05-634x425.jpg?1b87af",
+      "http://cdn.twentytwowords.com/wp-content/uploads/Giant-Anteaters-legs-look-like-pandas-01-634x428.jpg?1b87af",
+      "http://cdn.twentytwowords.com/wp-content/uploads/Giant-Anteaters-legs-look-like-pandas-02-634x497.jpg?1b87af",
+      "http://cdn.twentytwowords.com/wp-content/uploads/Giant-Anteaters-legs-look-like-pandas-03-634x397.jpg?1b87af",
+      "http://cdn.twentytwowords.com/wp-content/uploads/Giant-Anteaters-legs-look-like-pandas-04-634x475.jpg?1b87af",
+      "http://cdn.twentytwowords.com/wp-content/uploads/Giant-Anteaters-legs-look-like-pandas-06-634x311.jpg?1b87af"
+    ],
+    "LabImages": [
+      "http://cdn.twentytwowords.com/wp-content/uploads/z-panda6-685x356.jpg?47bf92"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 6,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.thestar.com/news/crime/2015/07/10/police-identify-second-suspect-in-condo-double-homicide.html",
+    "DiffbotImages": [
+      "http://www.thestar.com/content/dam/thestar/news/crime/2015/07/10/police-identify-second-suspect-in-condo-double-homicide/kwasi-skene-petersjpg.jpg.size.xxlarge.letterbox.jpg"
+    ],
+    "LabImages": [
+      "http://www.thestar.com/content/dam/thestar/news/crime/2015/07/10/police-identify-second-suspect-in-condo-double-homicide/kwasi-skene-petersjpg.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://greatist.com/connect/how-giving-up-alcohol-changed-my-life",
+    "DiffbotImages": [
+      "http://greatist.com/sites/default/files/styles/half_content/public/Patrick-inpost-half-width.png?itok=0izE4u1M",
+      "http://greatist.com/sites/default/files/styles/half_content/public/Patrick2-inpost-half-width.png?itok=fnmHcB4O"
+    ],
+    "LabImages": [
+      "http://greatist.com/sites/default/files/styles/big_share/public/Beers-feature.jpg?itok=0-lMx_U0"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.freep.com/story/entertainment/dining/2015/07/10/free-slurpee-day-7-eleven/29995569/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/0926fccbf66942245fcb8f670ebaea2bebe62014/c=0-57-1714-2342\u0026r=537\u0026c=0-0-534-712/local/-/media/2015/07/10/DetroitFreePress/DetroitFreePress/635721565092782538-Slurpee-Day005V2.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/b68fbfe5785647d67d742c98a4b3dd7559378133/c=0-744-1705-1707\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/10/DetroitFreePress/DetroitFreePress/635721565092782538-Slurpee-Day005V2.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://theweek.com/articles/441240/34-tv-shows-watch-2015",
+    "DiffbotImages": [
+      "http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/MM_0.jpg?itok=M-QOkmM2"
+    ],
+    "LabImages": [
+      "http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/Homeland_502_0758.R.jpg?itok=oSf_O3_F"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.myrtlebeachonline.com/news/state/south-carolina/article26976595.html",
+    "DiffbotImages": [
+      "http://www.myrtlebeachonline.com/news/state/south-carolina/vd2slo-Confederate-flag-is-removed-from-S.C.-Capitol-grounds/ALTERNATES/LANDSCAPE_560/Confederate%20flag%20is%20removed%20from%20S.C.%20Capitol%20grounds"
+    ],
+    "LabImages": [
+      "http://www.myrtlebeachonline.com/news/state/south-carolina/xl7byw-Confederate-flag-pole-removed-off-South-Carolina-State-House-grounds/ALTERNATES/LANDSCAPE_1140/Confederate%20flag%20pole%20removed%20off%20South%20Carolina%20State%20House%20grounds"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.refinery29.com/los-angeles-personal-assistant-stories",
+    "DiffbotImages": [
+      "http://s1.r29static.com//bin/public/e04/x,80/1427228/assistants-op.jpg"
+    ],
+    "LabImages": [
+      "http://s1.r29static.com//bin/entry/99a/x,80/1426294/image.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.bbc.com/news/technology-33364565",
+    "DiffbotImages": [
+      "http://ichef.bbci.co.uk/news/624/cpsprodpb/DE80/production/_84006965_ff36290b-ccf3-4155-bd01-9074533e115f.jpg"
+    ],
+    "LabImages": [
+      "http://ichef.bbci.co.uk/news/1024/cpsprodpb/6D38/production/_84006972_84006968.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://familyshare.com/parenting/6-frightful-things-babysitters-do-and-the-secrets-to-finding-your-own-mary-poppins",
+    "DiffbotImages": [
+      "https://media.deseretdigital.com/file/d49e4d7021.jpg?crop=top_0~left_0~width_1000~height_666\u0026resize=width_630~height_420\u0026c=2\u0026a=ad8eabae"
+    ],
+    "LabImages": [
+      "https://media.deseretdigital.com/file/d49e4d7021.jpg?crop=top_65~left_0~width_1000~height_523\u0026resize=width_630~height_330\u0026c=2\u0026a=dbcbd530"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.mirror.co.uk/news/uk-news/the-shoe-100s-twitter-quit-6045476",
+    "DiffbotImages": [
+      "http://i4.mirror.co.uk/incoming/article6044702.ece/ALTERNATES/s615/Main-shoe.jpg"
+    ],
+    "LabImages": [
+      "http://i3.mirror.co.uk/incoming/article6044702.ece/ALTERNATES/s1200/Main-shoe.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.dailyherald.com/article/20150710/news/150719837/",
+    "DiffbotImages": [
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719837/EP/1/1/EP-150719837.jpg\u0026updated=201507111620\u0026MaxW=800\u0026maxH=800\u0026updated=201507111620\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719837/EP/1/2/EP-150719837.jpg\u0026updated=201507111620\u0026MaxW=800\u0026maxH=800\u0026updated=201507111620\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719837/EP/1/4/EP-150719837.jpg\u0026updated=201507111620\u0026MaxW=800\u0026maxH=800\u0026updated=201507111620\u0026noborder"
+    ],
+    "LabImages": [
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719837/AR/0/AR-150719837.jpg\u0026updated=201507111620\u0026imageversion=Facebook\u0026exactH=630\u0026exactW=1200\u0026exactfit=crop\u0026noborder"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 3,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.mrctv.org/blog/rep-lois-capps-d-ca-introduces-bill-ban-govt-use-words-husband-and-wife",
+    "DiffbotImages": [
+      "http://www.mrctv.org/sites/default/files/uploads/Jeff%20Dunetz/1984.jpg"
+    ],
+    "LabImages": [
+      "http://www.mrctv.org/sites/default/files/images/1984.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.freep.com/story/sports/college/university-michigan/wolverines/2015/07/11/michigan-football-the-opening/30001647/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/93cbe5d7a756df8b3fe4ac485897220487e0050e/c=71-0-2218-2863\u0026r=537\u0026c=0-0-534-712/local/-/media/2015/07/11/DetroitFreePress/DetroitFreePress/635721702972742119-Michael-Onwenu.JPG-1-1-NK966T0G-L527404962.JPG"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/485ece343f201c32dbca0b9adcdf09a465d23a2b/c=0-89-2288-1382\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/11/DetroitFreePress/DetroitFreePress/635721702972742119-Michael-Onwenu.JPG-1-1-NK966T0G-L527404962.JPG"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://nypost.com/2015/07/08/why-vinegar-hill-is-brooklyns-edgiest-enclave/",
+    "DiffbotImages": [
+      "https://thenypost.files.wordpress.com/2015/07/water_street_view_-1.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/47_bridge_kitchen_rendering_-1.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/070315vinegarhill49aw.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/070315vinegarhill60aw.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/070515edwards13hs.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/070315vinegarhill04aw.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/townhouses-r05a.jpg?w=680\u0026h=450\u0026crop=1",
+      "https://thenypost.files.wordpress.com/2015/07/48duffield_house_exta.jpg?w=680\u0026h=450\u0026crop=1"
+    ],
+    "LabImages": [
+      "https://thenypost.files.wordpress.com/2015/07/070315vinegarhill22aw.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 8,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.freep.com/story/life/advice/2015/07/11/amy-dickinson-invitation-wedding-snub/29926415/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/e69772cacce9897edea522ee929cb340270bef56/c=0-117-1415-2004\u0026r=537\u0026c=0-0-534-712/local/-/media/2015/07/09/DetroitFreePress/DetroitFreePress/635720693201168735-ThinkstockPhotos-78155625.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/9e912cdcdedb685594841afe2dc29f2142a800fc/c=0-481-1409-1277\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/09/DetroitFreePress/DetroitFreePress/635720693201168735-ThinkstockPhotos-78155625.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.foodnetwork.com/shows/food-network-star/food-network-star-video-gallery.fcf70c51-fddb-43af-9775-37722cbc918a.html",
+    "DiffbotImages": [
+      "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/640/454/0234172_480x360.jpg"
+    ],
+    "LabImages": [
+      "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/631/803/0234179_480x360.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.gainesvilletimes.com/section/6/article/107340/",
+    "DiffbotImages": [
+      "http://media.morristechnology.com/webmedia/upload/gainesville/article/2014/10/19/1019SOLUTIONS4.jpg"
+    ],
+    "LabImages": [
+      "http://media.morristechnology.com/webmedia/upload/gainesville/article/2014/10/19/1019SOLUTIONS3.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://thenextweb.com/offers/2015/07/08/take-to-the-skies-with-28-off-the-skeye-nano-drone/",
+    "DiffbotImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/Screen-Shot-2015-07-07-at-2.13.40-PM-520x297.png"
+    ],
+    "LabImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/Screen-Shot-2015-07-07-at-2.09.15-PM.png"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.thestate.com/news/politics-government/politics-columns-blogs/the-buzz/article27016513.html",
+    "DiffbotImages": [
+      "http://www.thestate.com/news/politics-government/politics-columns-blogs/the-buzz/ifl47r-Barton-Swaimtalksaboutsanfordaffair.mp4/ALTERNATES/FREE_560/Barton%20Swaimtalksaboutsanfordaffair.mp4"
+    ],
+    "LabImages": [
+      "http://www.thestate.com/news/politics-government/politics-columns-blogs/the-buzz/l6oe2j/picture27016507/ALTERNATES/LANDSCAPE_1140/sanford"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://jacksonville.com/news/crime/2015-07-10/story/football-player-turned-attorney-aims-push-young-black-men-success",
+    "DiffbotImages": [
+      "http://jacksonville.com/sites/default/files/imagecache/premium_415_wide_scale/14550096.jpg",
+      "http://jacksonville.com/sites/default/files/imagecache/premium_415_wide_scale/14550092.jpg",
+      "http://jacksonville.com/sites/default/files/imagecache/premium_415_wide_scale/14550283.jpg"
+    ],
+    "LabImages": [
+      "http://jacksonville.com/sites/default/files/BPM0711.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 3,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://thenextweb.com/shareables/2015/07/07/han-solo-is-getting-his-own-movie-made-by-the-directors-of-the-lego-movie/",
+    "DiffbotImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/PhilLordChrisMiller-2015Headshot-1024x683.jpg"
+    ],
+    "LabImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/Hans-Solo-Chewbacca-Young.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.stamfordadvocate.com/news/article/Princess-Charming-debuts-in-photos-6375845.php",
+    "DiffbotImages": [
+      "http://ww3.hdnux.com/photos/37/41/20/8262718/5/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/46/04/8282370/3/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/46/04/8282394/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282393/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282391/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282373/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282389/3/628x471.jpg",
+      "http://ww1.hdnux.com/photos/37/46/04/8282388/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282387/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282371/3/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/41/20/8262710/5/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/46/04/8282386/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282385/3/628x471.jpg",
+      "http://ww1.hdnux.com/photos/37/46/04/8282384/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282383/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282379/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282381/3/628x471.jpg",
+      "http://ww1.hdnux.com/photos/37/46/04/8282376/6/628x471.jpg"
+    ],
+    "LabImages": [
+      "http://ww1.hdnux.com/photos/37/46/04/8282372/5/rawImage.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 18,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.militarytimes.com/story/military/2015/07/10/drone-yemen-al-qaida/29984177/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/f5165edfa19bcf273643df7b3770f5690bca06dd/r=x404\u0026c=534x401/http/cdn.tegna-tv.com/-mm-/56627f5e9790c71fbe5f3c7e33c8fb66dc81124b/c=245-0-4012-2832/local/-/media/2015/07/10/GGM/MilitaryTimes/635721450203040005-GettyImages-487316185.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/dd91cab7c966d9afac8d2c3217d66bedd36b3dc9/r=x1683\u0026c=3200x1680/http/cdn.tegna-tv.com/-mm-/42cb2ab39386d022d7e20e94b6878b14f637e89c/c=0-214-4256-2619/local/-/media/2015/07/10/GGM/MilitaryTimes/635721450203040005-GettyImages-487316185.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.dailypress.com/news/williamsburg/dp-pictures-rescued-eaglet-release-20130830-photogallery.html",
+    "DiffbotImages": [
+      "http://www.trbimg.com/img-5220fa9d/turbine/dp-pictures-rescued-eaglet-release-20130830-001",
+      "http://www.trbimg.com/img-52211a03/turbine/dp-pictures-rescued-eaglet-release-20130830-002",
+      "http://www.trbimg.com/img-559f0380/turbine/dp-nws-eaglet-litter-20150709"
+    ],
+    "LabImages": [
+      "http://www.trbimg.com/img-55df7649/turbine/dp-pictures-rescued-eaglet-release-20130830"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 3,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://lancasteronline.com/news/local/live-on-vine-what-you-need-to-know/article_03255f98-2588-11e5-b586-2f4bd1b383c3.html",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://lancasteronline.com/app/Staff/Jenelle_Janci.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://matadornetwork.com/life/know-biggest-land-formations-earth-located/",
+    "DiffbotImages": [
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/783eb8f4-1ae2-4d18-85a6-ce65fa1137eb.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/f9160fed-4318-405a-8c1f-fd0e40907b51.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/b2381c54-5fd5-4652-858c-442535a99531.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/a05e896c-b199-429b-94a7-5347dd4e3db5.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/dcfd8947-6167-4c98-87f7-7cfd74aab98e.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/1effe997-f332-4427-8b3a-fb9084474af5.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/f3009abd-4862-467a-93c4-3c13aa7dd155.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/45494f08-8b8d-4a22-85bd-e312b01741ac.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/16349b0f-3d72-4b81-8ce0-7c7dfb7a32df.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/992453f4-5301-4ab3-87ee-3754606c26a5.jpg"
+    ],
+    "LabImages": [
+      "http://cdn1.matadornetwork.com/blogs/1/2015/07/3844322291_ebe384f208_o.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 10,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.collegehumor.com/post/7026693/if-rl-stine-wrote-goosebumps-books-for-pets?ref=homepage",
+    "DiffbotImages": [
+      "http://2.media.collegehumor.cvcdn.com/83/78/c7383a30a438dd989ea531a982fb1108.jpg",
+      "http://0.media.collegehumor.cvcdn.com/97/54/c07eefffd7acd174bb3b44f780a2197d.jpg",
+      "http://1.media.collegehumor.cvcdn.com/73/96/0a84ba1e9450da40bfc03826ccde5a6e.jpg",
+      "http://0.media.collegehumor.cvcdn.com/70/48/e7cedb9bb755725d52db953b9c07a68d.jpg",
+      "http://0.media.collegehumor.cvcdn.com/27/18/f3c7a673dcb96c6dff308b5e3b88f0b9.jpg",
+      "http://0.media.collegehumor.cvcdn.com/60/65/6c6a0ed5a9660869ab63a2e91bb46bbb.jpg",
+      "http://0.media.collegehumor.cvcdn.com/97/25/71f7ece7b9b2e39987ecf864840c12dc.jpg"
+    ],
+    "LabImages": [
+      "http://1.media.collegehumor.cvcdn.com/67/83/3a860feebe987d19293347f0873a7082.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 7,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.hometownlife.com/story/news/local/westland/2015/07/09/third-man-stand-trial-murder-redford-man/29938045/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/bcef3913a9a4abe8a4ba8f15ad49fb3b85ffc32c/c=0-0-534-712\u0026r=537\u0026c=0-0-534-712/local/-/media/2015/07/09/Livonia/B9318031914Z.1_20150709203217_000_G1FBABQIC.1-0.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/2fe2471184649d1cc217f2492ce28a57a087b856/c=0-206-534-506\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/09/Livonia/B9318031914Z.1_20150709203217_000_G1FBABQIC.1-0.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.indystar.com/insider/deals/2015/06/08/leafguard-free-rain-barrel/28679381/?from=global\u0026sessionKey=\u0026autologin=",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/b681be3e8913d414450fc294b333a14c7055aeee/c=0-2-700-397/local/-/media/2015/06/08/Indianapolis/Indianapolis/635693546623538261-Leafguard-insider-0615-700X400.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/1a4af14aa41a2c352b21fa210eca4bd33ecb7e0c/c=0-2-700-397\u0026r=x1683\u0026c=3200x1680/local/-/media/2015/08/12/Indianapolis/Indianapolis/635749745882424441-Leafguard-8.12.15-700x400.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.collegehumor.com/post/7026677/these-17-next-level-selfies-make-your-selfies-look-like-sht?ref=homepage",
+    "DiffbotImages": [
+      "http://2.media.collegehumor.cvcdn.com/57/15/0083e39c9cbd1de6e4278a767632f598.jpg",
+      "http://1.media.collegehumor.cvcdn.com/10/35/223dffa0554f04346847a964f55d92f1.jpg",
+      "http://0.media.collegehumor.cvcdn.com/28/24/8bb0beb15e4e8f896ece6e9f2f41ca48.jpg",
+      "http://1.media.collegehumor.cvcdn.com/21/11/03c6f12ef7d1d0f7087a048eabc9f858.jpg",
+      "http://2.media.collegehumor.cvcdn.com/78/69/ccd9171bfcb6737506a6c996c1235914.jpg",
+      "http://1.media.collegehumor.cvcdn.com/31/33/90aa21fe682f26a7ed3ecd979ef2bda0.jpg",
+      "http://2.media.collegehumor.cvcdn.com/40/97/bf71dea6dcf4543ea76fad4bf878fc61.jpg",
+      "http://0.media.collegehumor.cvcdn.com/89/22/72c1ac2f228ce8d69cde5f9cd88a5b24.jpg",
+      "http://2.media.collegehumor.cvcdn.com/52/82/d8c6ab2786c41ab46ada03fc2591478f.jpg",
+      "http://2.media.collegehumor.cvcdn.com/71/98/50b150c54745b791265aa61f36b50df9.jpg",
+      "http://0.media.collegehumor.cvcdn.com/46/84/03247c10b9087d7e7bb9f699f0b9c162.jpg",
+      "http://2.media.collegehumor.cvcdn.com/98/98/3707603a10b38e08101fb9a07efb81dd.jpg",
+      "http://0.media.collegehumor.cvcdn.com/35/26/d7735eae1e9ab33a27e1604c2bc4d352.jpg",
+      "http://1.media.collegehumor.cvcdn.com/85/38/e55d4de300c06d8f25a4f49211a92da3.jpg",
+      "http://1.media.collegehumor.cvcdn.com/66/36/20f6544caba688646f368b61e9d78f98.jpg"
+    ],
+    "LabImages": [
+      "http://1.media.collegehumor.cvcdn.com/54/17/2b1bb196c02c73b6e4513c2b268eeba5.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 15,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://theadvocate.com/news/12879413-123/lsus-louisiana-business-and-technology",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://theadvocate.com/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=JVze4IgYaTOscAWSDwHYFs$daE2N3K4ZzOUsqbU5sYt32hz456TUXeT8TIjx6oh9WCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-\u0026CONTENTTYPE=image/jpeg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.dailyherald.com/article/20150710/news/150719867/",
+    "DiffbotImages": [
+      "http://www.dailyherald.com/apps/pbcsi.dll/urlget?url=http://brightcove.vo.llnwd.net/v1/unsecured/media/1659832549/201507/645/1659832549_4348627629001_4348625915001-vs.jpg?pubId=1659832549\u0026MaxW=800\u0026maxH=600\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719867/AR/0/AR-150719867.jpg\u0026updated=201507101640\u0026MaxW=800\u0026maxH=800\u0026updated=201507101640\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719867/EP/1/1/EP-150719867.jpg\u0026updated=201507101640\u0026MaxW=800\u0026maxH=800\u0026updated=201507101640\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719867/EP/1/2/EP-150719867.jpg\u0026updated=201507101640\u0026MaxW=800\u0026maxH=800\u0026updated=201507101640\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719867/EP/1/3/EP-150719867.jpg\u0026updated=201507101640\u0026MaxW=800\u0026maxH=800\u0026updated=201507101640\u0026noborder",
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719867/EP/1/4/EP-150719867.jpg\u0026updated=201507101640\u0026MaxW=800\u0026maxH=800\u0026updated=201507101640\u0026noborder"
+    ],
+    "LabImages": [
+      "http://www.dailyherald.com/storyimage/DA/20150710/news/150719867/AR/0/AR-150719867.jpg\u0026updated=201507101640\u0026imageversion=Facebook\u0026exactH=630\u0026exactW=1200\u0026exactfit=crop\u0026noborder"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 6,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.usatoday.com/story/your-take/2015/07/10/disney-turns-60/29922183/",
+    "DiffbotImages": [
+      "http://www.gannett-cdn.com/-mm-/6d93d3771ef919fc9cc18b95accb42f6c0b8641b/c=0-0-1200-1600\u0026r=383\u0026c=0-0-380-510/local/-/media/2015/07/09/USATODAY/USATODAY/635720513725798278-Brad-Mellon-ugc-yourtake-4-.jpg",
+      "http://www.gannett-cdn.com/-mm-/6fbc9078264e167f8ad38bf84fd7123f9cf89b53/c=0-304-2448-2145\u0026r=x513\u0026c=680x510/local/-/media/2015/07/09/USATODAY/USATODAY/635720513814406846-Klint-Arnold-ugc-yourtake.jpg",
+      "http://www.gannett-cdn.com/-mm-/b8aa2b70f51e45987e6422769af70e7d120608b7/c=0-5-1536-2053\u0026r=383\u0026c=0-0-380-510/local/-/media/2015/07/09/USATODAY/USATODAY/635720513742958388-Brad-Mellon-ugc-yourtake-5-.jpg",
+      "http://www.gannett-cdn.com/-mm-/e41f111b2c06c00deb371d36db852cb9d89f17f6/c=269-0-4456-3148\u0026r=x513\u0026c=680x510/local/-/media/2015/07/09/USATODAY/USATODAY/635720514225781483-Michael-Seeley-ugc-yourtake.jpg",
+      "http://www.gannett-cdn.com/-mm-/6fbc9078264e167f8ad38bf84fd7123f9cf89b53/c=0-304-2448-2145\u0026r=x513\u0026c=680x510/local/-/media/2015/07/09/USATODAY/USATODAY/635720513814406846-Sher-Lynn-Goh-ugc-yourtake.jpg",
+      "http://www.gannett-cdn.com/-mm-/c2542c90ae71d15fc8c07cdf9954673efd4c5c59/c=3-0-2046-1536\u0026r=x513\u0026c=680x510/local/-/media/2015/07/09/USATODAY/USATODAY/635720513491640777-Mark-Joyner-ugc-yourtake.jpg",
+      "http://www.gannett-cdn.com/-mm-/e6091af2f6d83f7f7436b5adcf10f9450c0f542e/c=1-0-1022-768\u0026r=x513\u0026c=680x510/local/-/media/2015/07/09/USATODAY/USATODAY/635720513149374583-Klint-Arnold-ugc-yourtake-1-.jpg",
+      "http://www.gannett-cdn.com/-mm-/c2b6b6af835b3b9db7ed0acd357a5768770a6ffd/c=0-304-2448-2145\u0026r=x404\u0026c=534x401/local/-/media/2015/07/09/USATODAY/USATODAY/635720513814406846-Sher-Lynn-Goh-ugc-yourtake.jpg"
+    ],
+    "LabImages": [
+      "http://www.gannett-cdn.com/-mm-/bc09349b5cfa34f369667522a0270414cbb041da/c=0-532-2448-1915\u0026r=x633\u0026c=1200x630/local/-/media/2015/07/09/USATODAY/USATODAY/635720513814406846-Sher-Lynn-Goh-ugc-yourtake.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 8,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://jacksonville.com/sports/football/sharks/2015-07-10/story/sharks-continue-playoff-push-portland",
+    "DiffbotImages": [
+      "http://jacksonville.com/sites/default/files/imagecache/premium_415_wide_scale/Shark0711ART.jpg"
+    ],
+    "LabImages": [
+      "http://jacksonville.com/sites/default/files/Shark0711.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.mirror.co.uk/all-about/transfer-gossip-round-up",
+    "DiffbotImages": [
+      "http://i3.mirror.co.uk/incoming/article6105817.ece/ALTERNATES/s588/4635965.jpg"
+    ],
+    "LabImages": [
+      "http://i1.mirror.co.uk/incoming/article806925.ece/ALTERNATES/s1200/PaperTalk.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://familyshare.com/growth/5-things-successful-people-do-that-make-them-more-successful-than-you",
+    "DiffbotImages": [
+      "https://media.deseretdigital.com/file/8eea9e7766.jpg?crop=top_0~left_0~width_1000~height_666\u0026resize=width_630~height_420\u0026c=2\u0026a=ad8eabae"
+    ],
+    "LabImages": [
+      "https://media.deseretdigital.com/file/8eea9e7766.jpg?crop=top_139~left_2~width_998~height_523\u0026resize=width_630~height_330\u0026c=2\u0026a=73f331da"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://twentytwowords.com/people-who-know-how-to-respond-to-a-wrong-number-text/",
+    "DiffbotImages": [
+      "http://cdn.twentytwowords.com/wp-content/uploads/party1.jpg?1b87af",
+      "http://cdn.twentytwowords.com/wp-content/uploads/shifts2.jpg?1b87af"
+    ],
+    "LabImages": [
+      "http://cdn.twentytwowords.com/wp-content/uploads/WrongNumberTexts-685x358.jpg?47bf92"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.philly.com/philly/blogs/sportsdoc/Tight-on-time-and-equipment--Try-the-one-man-resistance-band-workout-.html",
+    "DiffbotImages": [
+      "http://media.philly.com/images/AG-chesttoimpress.jpg",
+      "http://media.philly.com/images/AGreversegears.jpg",
+      "http://media.philly.com/images/AG-squatdrop.jpg"
+    ],
+    "LabImages": [
+      "http://media.philly.com/images/iStock_resistance-bands.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 3,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  }
+]

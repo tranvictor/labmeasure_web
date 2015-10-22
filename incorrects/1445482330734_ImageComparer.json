@@ -1,0 +1,599 @@
+[
+  {
+    "URL": "http://thenextweb.com/entrepreneur/2015/07/10/4-tips-to-make-any-team-agile/",
+    "DiffbotImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/startup1-520x347.jpg",
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/startups-520x253.jpg",
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/05/startupbuzz-520x274.jpg",
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/startups1-520x366.jpg"
+    ],
+    "LabImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/shutterstock_260061800.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 4,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://matadornetwork.com/life/know-biggest-land-formations-earth-located/",
+    "DiffbotImages": [
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/783eb8f4-1ae2-4d18-85a6-ce65fa1137eb.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/f9160fed-4318-405a-8c1f-fd0e40907b51.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/b2381c54-5fd5-4652-858c-442535a99531.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/a05e896c-b199-429b-94a7-5347dd4e3db5.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/dcfd8947-6167-4c98-87f7-7cfd74aab98e.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/1effe997-f332-4427-8b3a-fb9084474af5.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/f3009abd-4862-467a-93c4-3c13aa7dd155.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/45494f08-8b8d-4a22-85bd-e312b01741ac.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/16349b0f-3d72-4b81-8ce0-7c7dfb7a32df.jpg",
+      "http://cdn.playbuzz.com/cdn/1286a131-8fc7-408f-988e-f2a159bf3200/992453f4-5301-4ab3-87ee-3754606c26a5.jpg"
+    ],
+    "LabImages": [
+      "http://cdn1.matadornetwork.com/blogs/1/2015/07/3844322291_ebe384f208_o.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 10,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.sportinglife.com/other-sports/news/article/678/9900614/tour-de-france-2015-stage-schedule-results-reports-standings",
+    "DiffbotImages": [
+      "http://e1.365dm.com/15/06/768x576/tour-de-france-2014-vincenzo-nibali-paris-champs-elysees-arc-de-triomphe_3320012.jpg?20150630100701"
+    ],
+    "LabImages": [
+      "http://e1.365dm.com/15/07/768x576/chris-froome-team-sky-tour-de-france_3329878.jpg?20150726184614"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.punemirror.in/photos/entertainment/abhay-deol/punephotos/45069647.cms",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.punemirror.in/photo/45069647.cms"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.thestate.com/news/politics-government/politics-columns-blogs/the-buzz/article27016513.html",
+    "DiffbotImages": [
+      "http://www.thestate.com/news/politics-government/politics-columns-blogs/the-buzz/ifl47r-Barton-Swaimtalksaboutsanfordaffair.mp4/ALTERNATES/FREE_560/Barton%20Swaimtalksaboutsanfordaffair.mp4"
+    ],
+    "LabImages": [
+      "http://www.thestate.com/news/politics-government/politics-columns-blogs/the-buzz/l6oe2j/picture27016507/ALTERNATES/LANDSCAPE_1140/sanford"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.news-journalonline.com/article/20150710/NEWS/150719910?Title=Bethune-Cookman-keeps-children-active-with-summer-learning-",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.news-journalonline.com/apps/pbcsi.dll/bilde?Site=DN\u0026Date=20150710\u0026Category=NEWS\u0026ArtNo=150719910\u0026Ref=AR\u0026imageVersion=Main\u0026MaxW=445\u0026border=0"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.punemirror.in/photos/entertainment/paris-hilton/punephotos/35438311.cms",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.punemirror.in/photo/35438311.cms"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.orlandoweekly.com/orlando/BestOf",
+    "DiffbotImages": [
+      "http://media1.fdncms.com/orlando/imager/best-of-orlando-2014/u/big/2293148/bestof2014.jpg"
+    ],
+    "LabImages": [
+      "http://media2.fdncms.com/orlando/imager/u/slideshow/2417103/1000w_boo2015_cover_final.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.heraldonline.com/news/business/article26980528.html",
+    "DiffbotImages": [
+      "http://www.heraldonline.com/news/local/gx6c4w-Nurse-Betty-celebrates-60-years-at-PMC/ALTERNATES/LANDSCAPE_560/Nurse%20Betty%20celebrates%2060%20years%20at%20PMC"
+    ],
+    "LabImages": [
+      "http://www.heraldonline.com/news/business/qh2x2r/picture26982148/ALTERNATES/LANDSCAPE_1140/0711nursebetty3"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.gadsdentimes.com/article/20150710/WIRE/150719973?Title=Serena-seeks-21st-major-against-Muguruza-at-Wimbledon",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.gadsdentimes.com/apps/pbcsi.dll/bilde?Site=GT\u0026Date=20150710\u0026Category=WIRE\u0026ArtNo=150719973\u0026Ref=AR\u0026imageVersion=Main\u0026MaxW=445\u0026border=0"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.mrctv.org/blog/rep-lois-capps-d-ca-introduces-bill-ban-govt-use-words-husband-and-wife",
+    "DiffbotImages": [
+      "http://www.mrctv.org/sites/default/files/uploads/Jeff%20Dunetz/1984.jpg"
+    ],
+    "LabImages": [
+      "http://www.mrctv.org/sites/default/files/images/1984.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.littlethings.com/jimmy-fallon-channing-tatum-magic-mike/",
+    "DiffbotImages": [
+      "http://cdn4.littlethings.com/app/uploads/2014/06/maxresdefault1-600x313.jpg",
+      "http://cdn9.littlethings.com/app/uploads/2015/07/Dog-refuses-mom-kisses-600x313.jpg"
+    ],
+    "LabImages": [
+      "http://cdn9.littlethings.com/app/uploads/2015/07/kid-theater.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.theledger.com/article/20150710/NEWS/150719934/1254?Title=NBA-Summer-League-Magic-8217-s-Young-Stars-Give-Fans-Glimpse-of-Potential",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.theledger.com/apps/pbcsi.dll/bilde?Site=LL\u0026Date=20150710\u0026Category=NEWS\u0026ArtNo=150719934\u0026Ref=AR\u0026Profile=1254\u0026imageVersion=Main\u0026MaxW=445\u0026border=0"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.gadsdentimes.com/article/99999999/MISC/209100001?template=art_plain",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.gadsdentimes.com/apps/pbcsi.dll/bilde?Site=GT\u0026Date=99999999\u0026Category=MISC\u0026ArtNo=209100001\u0026Ref=AR\u0026imageVersion=Main\u0026MaxW=445\u0026border=0"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://host.madison.com/sports/baseball/amateur/northwoods-league-lodi-s-fred-manke-gets-down-to-business/article_5af96120-e7ba-540b-9767-f9f06b9e75ee.html",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://bloximages.chicago2.vip.townnews.com/host.madison.com/content/tncms/assets/v3/editorial/e/ed/eed01c08-0163-53a4-9f8d-4c03a9e80d2d/55a04dfba5375.image.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.sportinglife.com/racing/news/article/465/9077432/the-complete-racing-package",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://e0.365dm.com/13/11/768x576/Doncaster-bookies-punters_3032990.jpg?20131109131901"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://theweek.com/articles/441240/34-tv-shows-watch-2015",
+    "DiffbotImages": [
+      "http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/MM_0.jpg?itok=M-QOkmM2"
+    ],
+    "LabImages": [
+      "http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/Homeland_502_0758.R.jpg?itok=oSf_O3_F"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.bbc.com/news/technology-33364565",
+    "DiffbotImages": [
+      "http://ichef.bbci.co.uk/news/624/cpsprodpb/DE80/production/_84006965_ff36290b-ccf3-4155-bd01-9074533e115f.jpg"
+    ],
+    "LabImages": [
+      "http://ichef.bbci.co.uk/news/1024/cpsprodpb/6D38/production/_84006972_84006968.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://fortune.com/fortune500/procter-gamble-32/",
+    "DiffbotImages": [],
+    "LabImages": [
+      "https://fortunedotcom.files.wordpress.com/2015/05/proctergamble.jpg?quality=80\u0026w=462\u0026h=260\u0026crop=1"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.muscleandfitness.com/workouts/athletecelebrity-workouts/how-ufc-star-conor-mcgregor-trained-ufc-189",
+    "DiffbotImages": [
+      "http://www.muscleandfitness.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/conor-action-1.jpg?itok=Vn-9QHNN"
+    ],
+    "LabImages": [
+      "http://www.muscleandfitness.com/sites/muscleandfitness.com/files/media/conor-action-2.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://siouxcityjournal.com/uploaded-images/danish-alps-recreation-area-and-kramper-lake/image_0e9d6bc3-7a1d-5cfd-ab30-104dee1ae53f.html",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://bloximages.chicago2.vip.townnews.com/siouxcityjournal.com/content/tncms/assets/v3/editorial/0/e9/0e9d6bc3-7a1d-5cfd-ab30-104dee1ae53f/55a059bbe1d6d.image.jpg?resize=620%2C374"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.breakingnews.com/topic/china/",
+    "DiffbotImages": [],
+    "LabImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/900px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.foodnetwork.com/shows/food-network-star/food-network-star-video-gallery.fcf70c51-fddb-43af-9775-37722cbc918a.html",
+    "DiffbotImages": [
+      "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/640/454/0234172_480x360.jpg"
+    ],
+    "LabImages": [
+      "http://images.scrippsnetworks.com/up/tp/Scripps_-_Food_Category_Prod/631/803/0234179_480x360.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.collegehumor.com/post/7026693/if-rl-stine-wrote-goosebumps-books-for-pets?ref=homepage",
+    "DiffbotImages": [
+      "http://2.media.collegehumor.cvcdn.com/83/78/c7383a30a438dd989ea531a982fb1108.jpg",
+      "http://0.media.collegehumor.cvcdn.com/97/54/c07eefffd7acd174bb3b44f780a2197d.jpg",
+      "http://1.media.collegehumor.cvcdn.com/73/96/0a84ba1e9450da40bfc03826ccde5a6e.jpg",
+      "http://0.media.collegehumor.cvcdn.com/70/48/e7cedb9bb755725d52db953b9c07a68d.jpg",
+      "http://0.media.collegehumor.cvcdn.com/27/18/f3c7a673dcb96c6dff308b5e3b88f0b9.jpg",
+      "http://0.media.collegehumor.cvcdn.com/60/65/6c6a0ed5a9660869ab63a2e91bb46bbb.jpg",
+      "http://0.media.collegehumor.cvcdn.com/97/25/71f7ece7b9b2e39987ecf864840c12dc.jpg"
+    ],
+    "LabImages": [
+      "http://1.media.collegehumor.cvcdn.com/67/83/3a860feebe987d19293347f0873a7082.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 7,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.greenwichtime.com/food/food52/article/Too-Many-Cooks-The-Dregs-6377895.php",
+    "DiffbotImages": [],
+    "LabImages": [
+      "https://farm8.staticflickr.com/7424/9450925259_147c171113_b.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://thenextweb.com/offers/2015/07/08/take-to-the-skies-with-28-off-the-skeye-nano-drone/",
+    "DiffbotImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/Screen-Shot-2015-07-07-at-2.13.40-PM-520x297.png"
+    ],
+    "LabImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/Screen-Shot-2015-07-07-at-2.09.15-PM.png"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.myrtlebeachonline.com/news/state/south-carolina/article26976595.html",
+    "DiffbotImages": [
+      "http://www.myrtlebeachonline.com/news/state/south-carolina/vd2slo-Confederate-flag-is-removed-from-S.C.-Capitol-grounds/ALTERNATES/LANDSCAPE_560/Confederate%20flag%20is%20removed%20from%20S.C.%20Capitol%20grounds"
+    ],
+    "LabImages": [
+      "http://www.myrtlebeachonline.com/news/state/south-carolina/xl7byw-Confederate-flag-pole-removed-off-South-Carolina-State-House-grounds/ALTERNATES/LANDSCAPE_1140/Confederate%20flag%20pole%20removed%20off%20South%20Carolina%20State%20House%20grounds"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.eonline.com/news/674347/guess-the-dress-what-caitlyn-jenner-should-wear-to-the-2015-espy-awards",
+    "DiffbotImages": [
+      "http://www.eonline.com/eol_images/Entire_Site/201569/rs_700x1024-150709102226-634-11caitlyn-jenner-espys.ls.7815.jpg",
+      "http://www.eonline.com/eol_images/Entire_Site/201569/rs_700x1024-150709102621-634-13caitlyn-jenner-espys.ls.7815.jpg"
+    ],
+    "LabImages": [
+      "http://www.eonline.com/resize/500/500//eol_images/Entire_Site/201569/rs_300x300-150709153213-600caitlyn-jenner-zuhair-murad-espys.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 2,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.mirror.co.uk/all-about/transfer-gossip-round-up",
+    "DiffbotImages": [
+      "http://i3.mirror.co.uk/incoming/article6105817.ece/ALTERNATES/s588/4635965.jpg"
+    ],
+    "LabImages": [
+      "http://i1.mirror.co.uk/incoming/article806925.ece/ALTERNATES/s1200/PaperTalk.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.deseretnews.com/top/3303/0/The-worst-cities-in-America-for-families-.html",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://img.deseretnews.com/images/top/landmain/3303/3303.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.dailypress.com/news/williamsburg/dp-pictures-rescued-eaglet-release-20130830-photogallery.html",
+    "DiffbotImages": [
+      "http://www.trbimg.com/img-5220fa9d/turbine/dp-pictures-rescued-eaglet-release-20130830-001",
+      "http://www.trbimg.com/img-52211a03/turbine/dp-pictures-rescued-eaglet-release-20130830-002",
+      "http://www.trbimg.com/img-559f0380/turbine/dp-nws-eaglet-litter-20150709"
+    ],
+    "LabImages": [
+      "http://www.trbimg.com/img-55df7649/turbine/dp-pictures-rescued-eaglet-release-20130830"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 3,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.ctpost.com/food/food52/article/This-Cake-Will-Turn-Your-World-Upside-Down-6377438.php",
+    "DiffbotImages": [],
+    "LabImages": [
+      "https://farm1.staticflickr.com/355/18886632203_9ec57ae0cd_b.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://thenextweb.com/shareables/2015/07/07/han-solo-is-getting-his-own-movie-made-by-the-directors-of-the-lego-movie/",
+    "DiffbotImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/PhilLordChrisMiller-2015Headshot-1024x683.jpg"
+    ],
+    "LabImages": [
+      "http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/07/Hans-Solo-Chewbacca-Young.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 1,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.stamfordadvocate.com/news/article/Princess-Charming-debuts-in-photos-6375845.php",
+    "DiffbotImages": [
+      "http://ww3.hdnux.com/photos/37/41/20/8262718/5/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/46/04/8282370/3/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/46/04/8282394/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282393/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282391/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282373/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282389/3/628x471.jpg",
+      "http://ww1.hdnux.com/photos/37/46/04/8282388/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282387/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282371/3/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/41/20/8262710/5/628x471.jpg",
+      "http://ww3.hdnux.com/photos/37/46/04/8282386/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282385/3/628x471.jpg",
+      "http://ww1.hdnux.com/photos/37/46/04/8282384/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282383/3/628x471.jpg",
+      "http://ww4.hdnux.com/photos/37/46/04/8282379/3/628x471.jpg",
+      "http://ww2.hdnux.com/photos/37/46/04/8282381/3/628x471.jpg",
+      "http://ww1.hdnux.com/photos/37/46/04/8282376/6/628x471.jpg"
+    ],
+    "LabImages": [
+      "http://ww1.hdnux.com/photos/37/46/04/8282372/5/rawImage.jpg"
+    ],
+    "Precision": 0,
+    "Recall": 0,
+    "DiffbotSize": 18,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 1,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.theledger.com/article/20150710/NEWS/150719922/1374?Title=Turtle-Nesting-Up-in-Volusia-Flagler-Counties",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.theledger.com/apps/pbcsi.dll/bilde?Site=LL\u0026Date=20150710\u0026Category=NEWS\u0026ArtNo=150719922\u0026Ref=AR\u0026Profile=1374\u0026imageVersion=Main\u0026MaxW=445\u0026border=0"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://theadvocate.com/news/12879413-123/lsus-louisiana-business-and-technology",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://theadvocate.com/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=JVze4IgYaTOscAWSDwHYFs$daE2N3K4ZzOUsqbU5sYt32hz456TUXeT8TIjx6oh9WCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-\u0026CONTENTTYPE=image/jpeg"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  },
+  {
+    "URL": "http://www.theledger.com/article/20150710/NEWS/150719913/1374?Title=Florida-Veterans-Hall-of-Fame-Push-for-Confederates-Continues",
+    "DiffbotImages": [],
+    "LabImages": [
+      "http://www.theledger.com/apps/pbcsi.dll/bilde?Site=LL\u0026Date=20150710\u0026Category=NEWS\u0026ArtNo=150719913\u0026Ref=AR\u0026Profile=1374\u0026imageVersion=Main\u0026MaxW=445\u0026border=0"
+    ],
+    "Precision": 0,
+    "Recall": 1,
+    "DiffbotSize": 0,
+    "LabSize": 1,
+    "LID": 0,
+    "LNID": 0,
+    "Acceptable": false
+  }
+]

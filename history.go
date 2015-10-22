@@ -9,6 +9,12 @@ import (
 
 type History struct {
 	BodyExamined           int
+	BodyBothEmpty          int
+	BodyDiffbotEmpty       int
+	BodyLabEmpty           int
+	BodyQualified          int
+	BodyAcceptable         int
+	BodyUnacceptable       int
 	BodyCorrect            int
 	BodyIncorrect          int
 	BodyAccuracy           float32
@@ -31,8 +37,14 @@ type History struct {
 func (h *History) RecordFromStat(stat labmeasure.FinalStat) {
 	bodyStats := stat.Stats()["BodyComparer"].(labmeasure.BodyStat)
 	h.BodyExamined = bodyStats.Examined
-	h.BodyCorrect = bodyStats.Correct
-	h.BodyIncorrect = bodyStats.Incorrect
+	h.BodyBothEmpty = bodyStats.BothEmpty
+	h.BodyDiffbotEmpty = bodyStats.DiffbotEmpty
+	h.BodyLabEmpty = bodyStats.LabEmpty
+	h.BodyQualified = bodyStats.Qualified
+	h.BodyAcceptable = bodyStats.Acceptable
+	h.BodyUnacceptable = bodyStats.Unacceptable
+	h.BodyCorrect = bodyStats.Correct()
+	h.BodyIncorrect = bodyStats.Incorrect()
 	h.BodyAccuracy = bodyStats.Accuracy()
 	h.BodyAveragePrecision = bodyStats.AveragePrecision()
 	h.BodyAverageRecall = bodyStats.AverageRecall()
